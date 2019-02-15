@@ -17,7 +17,7 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
 </head>
 
 <body>
-<h1 align="center" style="font-size:72px ; color:#99FF99">討論區首頁</h1>
+<h1 align="center" style="font-size:72px ; color:#99FF99 ;line-height:50%">討論區首頁</h1>
 <hr>
 <table width="500" border="1" align="center" style="margin-bottom:20px">
   <tr>
