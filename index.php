@@ -72,7 +72,9 @@ function buildNavigation($pageNum_Recordset1,$totalPages_Recordset1,$prev_Record
 	}
 	return array($firstArray,$pagesArray,$lastArray);
 }
-?><?php require_once('Connections/forum.php'); ?>
+?>
+
+<?php require_once('Connections/forum.php'); ?>
 
 <?php
 //繫結資料集
@@ -110,7 +112,7 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 <hr>
 <table width="500" border="1" align="center" style="margin-bottom:20px">
   <tr>
-    <td><div align="right"><a href="#" style="margin-right:10px">發表主題</a><a href="#">搜尋</a></div></td>
+    <td><div align="right"><a href="post.php" style="margin-right:10px">發表主題</a><a href="#">搜尋</a></div></td>
   </tr>
 </table>
 
