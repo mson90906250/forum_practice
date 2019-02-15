@@ -13,10 +13,13 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>無標題文件</title>
+<title>首頁</title>
 </head>
 
-<body><table width="500" border="1" align="center" style="margin-bottom:20px">
+<body>
+<h1 align="center" style="font-size:72px ; color:#99FF99">討論區首頁</h1>
+<hr>
+<table width="500" border="1" align="center" style="margin-bottom:20px">
   <tr>
     <td><div align="right"><a href="#" style="margin-right:10px">發表主題</a><a href="#">搜尋</a></div></td>
   </tr>
