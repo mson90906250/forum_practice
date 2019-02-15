@@ -1,5 +1,5 @@
 <?php require_once('Connections/forum.php'); 
-      mysql_query("SET NAMES UTF8");?>
+      ?>
 <?php
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
 {
